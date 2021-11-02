@@ -10,7 +10,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 function Navbar(){
     return (
     <Box sx={{ flexGrow: 1 }}>
-      <AppBar position="fixed">
+      <AppBar position="sticky">
         <Toolbar>
           <IconButton
             size="large"
